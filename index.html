@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q==" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- popup  -->
+    <div id="demo-modal" class="modal" role="dialog" tabindex="-1">
+        <div class="model-inner">
+            <div class="modal-header">
+                <h3>Hello World</h3>
+                <button class="modal-close" data-id="demo-modal" aria-label="Close">
+              &times;
+            </button>
+            </div>
+            <div class="popup">
+                <div class="form-style-3">
+                    <form>
+                        <fieldset>
+                            <legend>Personal</legend>
+                            <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+                            <label for="field2"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
+                            <label for="field3"><span>Phone <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
+                            <label for="field4"><span>Subject</span><select name="field4" class="select-field">
+                    <option value="Appointment">Appointment</option>
+                    <option value="Interview">Interview</option>
+                    <option value="Regarding a post">Regarding a post</option>
+                    </select></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Message</legend>
+                            <label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+                            <label><span> </span><input type="submit" value="Submit" /></label>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header  -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light  fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand "><img src="https://www.bay20.com/wp-content/themes/bay20/images/logo.png" alt="" width="200px"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- show case -->
+    <div class="container">
+        <h1 style="border: 1px solid red;">hello</h1>
+    </div>
+    <div class="content-box animate__animated animate__bounce animate__repeat-2 ">
+        <div class="boxes animated bounceInRight animate__animated animate__bounce animate__repeat-2">
+            <img src="./images/amine-experts-thum-3.jpg" alt="">
+        </div>
+
+        <div class="boxes animated bounceInRight">
+            <img src="./images/dehydration-experts-thum-1.jpg" alt="">
+        </div>
+
+        <div class="boxes animated bounceInRight d-md-block">
+            <img src="./images/amine-experts-thum-1.jpg" alt="">
+        </div>
+    </div>
+
+
+    <button class="modal-open" data-id="demo-modal" style="padding: 10px; background-color: red;pointer-events: painted;">Click me To show popus</button>
+    <!--box-container----------------->
+    <div class="box-container ">
+        <!--box-1-------->
+        <div class="box animated bounceInRight d-md-block">
+            <img src="images/login.svg">
+            <p>Log-In to our secure website</p>
+            <p>To begin the process, please Log-In to our secure system. Everything you need to Log-In is available in the communication letter you have received from us.</p>
+            <!--btn--------->
+            <a href="#">Log In</a>
+        </div>
+        <!--box-2-------->
+        <div class="box animated bounceInRight d-md-block">
+            <img src="images/account view.svg">
+            <p>View Your Website</p>
+            <p>You will have a chance to review your account for accuracy and update your contact information. Should you find any incorrect information on your account or if you prefer to talk to us directly, please Contact Us.</p>
+            <!--btn--------->
+            <a href="#">View</a>
+        </div>
+        <!--box-3-------->
+        <div class="box animated bounceInRight d-md-block">
+            <img src="images/payment method.svg">
+            <p>Select Your Plan</p>
+            <p>In addition to the payment in full, we may offer you a discount for making online payments, allow you to schedule payments over time, or have you define the payment terms that best work for your particular situation.</p>
+            <!--btn--------->
+            <a href="#">Select Plan</a>
+        </div>
+        <!--box-4-------->
+        <div class="box animated bounceInRight d-md-block">
+            <img src="images/lock.svg">
+            <p>Login in secure website</p>
+            <p>You can make secure online payments from the privacy of your home 24/7.</p>
+            <!--btn--------->
+            <a href="#">Log In</a>
+        </div>
+        <!--box-5-------->
+        <div class="box animated bounceInRight">
+            <img src="images/document.svg">
+            <p>Confrim Your Websites</p>
+            <p>When you make payment(s), we will issue you an electronic receipt. You can also log in any time to get the most up-to-date receipt</p>
+            <!--btn--------->
+            <a href="#">View</a>
+        </div>
+    </div>
+    <!-- bay20 clone-->
+    <div class="container" style="margin: 0 auto;">
+        <div class="row">
+            <div class="col-md-4 demo">
+                <div class="feature-img">
+                    <img src="./ion/logo1.png" alt="">
+                </div>
+                <div class="dec">
+                    <h2>
+                        Design development
+                    </h2>
+                    <p class="decsci">We offer comprehensive end-to-end advice from conception to deployment. We believe in a conversion approach.</p>
+                </div>
+            </div>
+            <div class="col-md-4 demo">
+                <div class="feature-img">
+                    <img src="./ion/logo2.png" alt="" width="77px">
+                </div>
+                <div class="dec">
+                    <h2>
+                        Suchmaschinenoptimierung
+
+                    </h2>
+                    <p class="decsci">SEO ist für uns Teil des Entwicklungsprozesses. Wir verfolgen einen ergebnisorientierten Ansatz. Ein detailliertes Berichtswesen erleichtert Ihnen die Arbeit für Sie.</p>
+                </div>
+            </div>
+            <div class="col-md-4 demo">
+                <div class="feature-img">
+                    <img src="./ion/E-commerce-3.png" alt="">
+                </div>
+                <div class="dec">
+                    <h2>E-Commerce
+                    </h2>
+                    <div class="dec-2">
+                        <p class="decsci">eCommerce ist unsere Stärke. Wir haben durch die Praxis gelernt. Unsere Erfahrung im Aufbau, Management und Marketing von Stores wird Ihnen helfen, schneller zu wachsen.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" style="margin: 0 auto;">
+        <div class="row">
+            <div class="col-md-4 demo">
+                <div class="feature-img">
+                    <img src="./ion/logo3.png" alt="">
+                </div>
+                <div class="dec">
+                    <h2>
+                        Entwicklung mobiler Apps
+                    </h2>
+                    <p class="decsci">Wir bieten eine umfassende End-to-End-Beratung von der Konzeption über die Codierung bis hin zur Bereitstellung von Android- und iOS-Anwendungen.</p>
+                </div>
+            </div>
+            <div class="col-md-4 demo">
+                <div class="feature-img">
+                    <img src="./ion/logo5.png" alt="" width="77px">
+                </div>
+                <div class="dec">
+                    <h2>
+                        E-Mail Marketing
+
+                    </h2>
+                    <p class="decsci">Eine Marke für ein Unternehmen ist wie ein Ruf für eine Person. Sie verdienen sich einen guten Ruf, indem Sie versuchen, harte Dinge gut zu machen.</p>
+                </div>
+            </div>
+            <div class="col-md-4 demo">
+                <div class="feature-img">
+                    <img src="./ion/logo6.png" alt="">
+                </div>
+                <div class="dec">
+                    <h2>Grafikdesign
+                    </h2>
+                    <div class="dec-2">
+                        <p class="decsci">Eine Marke für ein Unternehmen ist wie ein Ruf für eine Person. Sie verdienen sich einen guten Ruf, indem Sie versuchen, harte Dinge gut zu machen.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <div class="container item">
+            <div class="items md-d-block">
+                <p class="md-d-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore non voluptatum veniam similique ad blanditiis neque debitis optio eveniet harum tenetur perspiciatis suscipit impedit atque alias recusandae ducimus quis, fuga enim maiores repellendus
+                    vel aspernatur labore. Voluptatum rem sit minus tenetur, consequatur laudantium eveniet eaque voluptas hic! Sed sit ut animi optio velit, facere aliquid alias repudiandae temporibus. Sint numquam enim tempora sed! Voluptate reiciendis
+                    debitis, fugiat numquam cum sit, recusandae fuga, veritatis nulla culpa assumenda ipsa repudiandae expedita nihil ipsum libero deleniti! Animi quis tenetur quas odit maiores laborum voluptatibus, libero aperiam sequi asperiores, a
+                    labore ut quos!
+                </p>
+            </div>
+            <div class="items d-md-block">
+                <p class="d-md-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore non voluptatum veniam similique ad blanditiis neque debitis optio eveniet harum tenetur perspiciatis suscipit impedit atque alias recusandae ducimus quis, fuga enim maiores repellendus
+                    vel aspernatur labore. Voluptatum rem sit minus tenetur, consequatur laudantium eveniet eaque voluptas hic! Sed sit ut animi optio velit, facere aliquid alias repudiandae temporibus. Sint numquam enim tempora sed! Voluptate reiciendis
+                    debitis, fugiat numquam cum sit, recusandae fuga, veritatis nulla culpa assumenda ipsa repudiandae expedita nihil ipsum libero deleniti! Animi quis tenetur quas odit maiores laborum voluptatibus, libero aperiam sequi asperiores, a
+                    labore ut quos!
+                </p>
+            </div>
+            <div class="items d-md-block">
+                <p class="md-d-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore non voluptatum veniam similique ad blanditiis neque debitis optio eveniet harum tenetur perspiciatis suscipit impedit atque alias recusandae ducimus quis, fuga enim maiores repellendus
+                    vel aspernatur labore. Voluptatum rem sit minus tenetur, consequatur laudantium eveniet eaque voluptas hic! Sed sit ut animi optio velit, facere aliquid alias repudiandae temporibus. Sint numquam enim tempora sed! Voluptate reiciendis
+                    debitis, fugiat numquam cum sit, recusandae fuga, veritatis nulla culpa assumenda ipsa repudiandae expedita nihil ipsum libero deleniti! Animi quis tenetur quas odit maiores laborum voluptatibus, libero aperiam sequi asperiores, a
+                    labore ut quos!
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="box-container ">
+        <!--box-1-------->
+        <div class="box animated bounceInRight d-md-block">
+            <img src="images/login.svg">
+            <p>Log-In to our secure website</p>
+            <p>To begin the process, please Log-In to our secure system. Everything you need to Log-In is available in the communication letter you have received from us.</p>
+            <!--btn--------->
+            <a href="#">Log In</a>
+        </div>
+        <!--box-2-------->
+        <div class="box animated bounceInRight d-md-block">
+            <img src="images/account view.svg">
+            <p>View Your Website</p>
+            <p>You will have a chance to review your account for accuracy and update your contact information. Should you find any incorrect information on your account or if you prefer to talk to us directly, please Contact Us.</p>
+            <!--btn--------->
+            <a href="#">View</a>
+        </div>
+        <!--box-3-------->
+        <div class="box animated bounceInRight">
+            <img src="images/payment method.svg">
+            <p>Select Your Plan</p>
+            <p>In addition to the payment in full, we may offer you a discount for making online payments, allow you to schedule payments over time, or have you define the payment terms that best work for your particular situation.</p>
+            <!--btn--------->
+            <a href="#">Select Plan</a>
+        </div>
+
+        <!--box-5-------->
+        <div class="box animated bounceInRight">
+            <img src="images/document.svg">
+            <p>Confrim Your Websites</p>
+            <p>When you make payment(s), we will issue you an electronic receipt. You can also log in any time to get the most up-to-date receipt</p>
+            <!--btn--------->
+            <a href="#">View</a>
+        </div>
+    </div>
+    <div class="container-fluid bay20-form" style="background-color: #fbe0d7;">
+        <div class="row">
+            <div class="col-md-6 form-part">
+                <h2>Holen Sie sich innerhalb von 2 Tagen einen kostenlosen SEO-Analysebericht!</h2>
+                <p>Da Werbung und Marketing eine Kunst ist, sollte die Lösung jeder neuen Problemherausforderung mit einer leeren Leinwand und einem offenen Geist beginnen, nicht mit der nervösen Anleihe anderer Menschen, die gerade modern sind.</p>
+                <p>Bei allen Geschäften geht es im Grunde um Kunden und Marketing, um Geld zu verdienen und um Kapitalismus und darum, es zu gewinnen und zu fördern und jemanden zu haben.</p>
+                <a href="#" class="btn">UNSERE DIENSTLEISTUNGEN</a>
+            </div>
+            <div class="col-md-6 form-part">
+                <form action="#">
+                    <input type="text" placeholder="Enter Your name" class="inputs">
+                    <input type="email" name="email" id="email" placeholder="Email" class="inputs">
+                    <input type="tel" name="phone" class="inputs" placeholder="TElephone">
+                    <input type="text" name="phone" class="inputs" placeholder="WEBSITE URL">
+                    <textarea name="##" cols="40" rows="5" class="inputs" placeholder="Enter Your Messsage"></textarea>
+                    <div class="btn"><a href="#">kostenlosen Bericht einreichen</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+<script>
+    let modal;
+    document.addEventListener(" click ", (e) => {
+        if (e.target.className === "modal-open ") {
+            modal = document.getElementById(e.target.dataset.id);
+            openModal(modal);
+        } else if (e.target.className === "modal-close ") {
+            closeModal(modal);
+        } else {
+            return;
+        }
+    });
+
+    const openModal = (modal) => {
+        document.body.style.overflow = "hidden ";
+        modal.setAttribute("open ", "true ");
+        document.addEventListener("keydown ", escClose);
+        let overlay = document.createElement("div ");
+        overlay.id = "modal-overlay ";
+        document.body.appendChild(overlay);
+    };
+
+    const closeModal = (modal) => {
+        document.body.style.overflow = "auto ";
+        modal.removeAttribute("open ");
+        document.removeEventListener("keydown ", escClose);
+        document.body.removeChild(document.getElementById("modal-overlay "));
+    };
+
+    const escClose = (e) => {
+        if (e.keyCode == 27) {
+            closeModal();
+        }
+    };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+
+</html>
